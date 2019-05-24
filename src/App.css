@@ -1,0 +1,25 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+th {
+  background-color: rgba(113, 160, 240, 0.927);
+}
+
+td, th {
+  text-align: center;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+input {
+  min-width: 350px;
+  border: 1px solid rgb(21, 108, 201);
+  border-radius: 5px;
+  line-height: 30px;
+}
